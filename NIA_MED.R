@@ -29,8 +29,8 @@ library(data.table) # 데이터 테이블 패키지
 ## 아래의 데이터 파일 이름 앞의 path 확인 (data/)
 table_20 = read_sas("data/hira_200table_2013.sas7bdat") # 명세서 일반내역
 table_30 = read_sas("data/hira_300table_2013.sas7bdat") # 진료내역
-table_40 = read_sas("data/hira_400table_2013.sas7bdat") # 상병내역
-table_53 = read_sas("data/hira_530table_2013.sas7bdat") # 처방전 상세내역
+# table_40 = read_sas("data/hira_400table_2013.sas7bdat") # 상병내역
+# table_53 = read_sas("data/hira_530table_2013.sas7bdat") # 처방전 상세내역
 
 ## 질병분류코드 코드의 앞 3자리만 사용 (p.30)
 # http://www.koicd.kr/2016/kcd/v7.do#0&n
